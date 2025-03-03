@@ -1,0 +1,36 @@
+body {
+    font-family: '[Your chosen body font]', sans-serif;
+    color: [Your chosen text color];
+    background-color: [Your chosen background color];
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: [Your chosen header background color];
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: '[Your chosen heading font]', sans-serif;
+    color: [Your chosen heading color];
+}
+
+section {
+    padding: 20px;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: [Your chosen footer background color];
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
