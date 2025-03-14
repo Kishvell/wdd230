@@ -5,3 +5,4 @@ const currentYear = new Date().getFullYear();
 copyrightYear.textContent = currentYear;
 
 lastModifiedDate.textContent = `Last Modified: ${document.lastModified}`;
+

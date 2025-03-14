@@ -1,18 +1,31 @@
+/* Responsive Styling (styles/larger.css) */
 @media (min-width: 768px) {
-    nav {
-      flex-direction: row; /* Horizontal on larger screens */
-    }
-  
-    nav a {
-      margin-right: 20px;
-    }
-  
-    main {
-      grid-template-columns: 2fr 1fr; /* Two columns on larger screens */
-    }
-  
-    .card:first-of-type {
-      grid-column: span 2; /* First card spans both columns */
-    }
+  nav {
+    flex-direction: row; /* Horizontal on larger screens */
   }
+
+  nav a {
+    margin-right: 20px;
+  }
+
+  main {
+    grid-template-columns: 2fr 1fr; /* Two columns on larger screens */
+  }
+
+  .card:first-of-type {
+    grid-column: span 2; /* First card spans both columns */
+  }
+
+  /* Keep hamburger menu visible on larger screens */
+  #hamburger {
+      display: inline-block; /* Show the hamburger menu */
+      margin-right: 20px; /* Add some spacing */
+  }
+
+  /* Center the title */
+  h1 {
+      text-align: center; 
+  }
+}
+
   
