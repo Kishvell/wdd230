@@ -1,0 +1,232 @@
+/* General Styling */
+body {
+  font-family: 'Roboto', sans-serif; /* Use Roboto font */
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333; /* Dark gray text color */
+  line-height: 1.6; /* Better readability */
+}
+
+header {
+  background-color: #fff; /* White background for header */
+  padding: 20px;
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between logo and navigation */
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Navigation Styling */
+nav {
+  background-color: #fff; /* White background for navigation */
+  padding: 10px;
+  color: #fff; /* White text color for navigation */
+  display: flex;
+  flex-direction: column; /* Vertical navigation on smaller screens */
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black; /* White text color for navigation links */
+}
+
+/* Hamburger Menu Styling */
+#hamburger {
+  display: block; /* Show the hamburger on smaller screens */
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Hide the main menu initially */
+#main-menu.hidden {
+  display: none;
+}
+
+/* Dark Mode Styling */
+.dark-mode {
+  background-color: #212529; /* Dark gray background for dark mode */
+  color: #f8f9fa; /* Light gray text color for dark mode */
+}
+
+.dark-mode a {
+  color: #f8f9fa; /* Light gray text color for dark mode links */
+}
+
+/* Content Styling */
+main {
+  max-width: 960px;
+  margin: 20px auto; /* Center the main content */
+  padding: 20px;
+  background-color: #fff; /* White background for main content */
+  display: grid;
+  grid-template-columns: 1fr; /* One column layout on smaller screens */
+  gap: 20px; /* Space between grid items */
+}
+
+.card {
+  padding: 20px;
+  border-radius: 5px; /* Rounded corners for cards */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.hero {
+  /* Hero section styling */
+}
+
+.hero img {
+  width: 90%;
+  height: auto;
+}
+
+.call-to-action {
+  /* Call to action section styling */
+}
+
+.call-to-action h2 {
+  /* Call to action heading styling */
+}
+
+.call-to-action p {
+  /* Call to action paragraph styling */
+}
+
+.call-to-action .btn {
+  /* Call to action button styling */
+}
+
+.events {
+  /* Events section styling */
+}
+
+.events h2 {
+  /* Events heading styling */
+}
+
+.event-list {
+  /* Events list styling */
+}
+
+.event-list li {
+  /* Event list item styling */
+}
+
+.event-list li h3 {
+  /* Event list item heading styling */
+}
+
+.event-list li p {
+  /* Event list item paragraph styling */
+}
+
+.weather {
+  /* Weather section styling */
+}
+
+.weather h2 {
+  /* Weather heading styling */
+}
+
+.weather-card {
+  /* Weather card styling */
+}
+
+.weather-card p {
+  /* Weather card paragraph styling */
+}
+
+.company-spotlights {
+  /* Company spotlights section styling */
+}
+
+.company-spotlights h2 {
+  /* Company spotlights heading styling */
+}
+
+.spotlight {
+  /* Company spotlight item styling */
+}
+
+.spotlight img {
+  /* Company spotlight image styling */
+}
+
+.spotlight h3 {
+  /* Company spotlight heading styling */
+}
+
+.spotlight p {
+  /* Company spotlight paragraph styling */
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333; /* Dark gray background for footer */
+  color: #fff; /* White text color for footer */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Logo Styling */
+header img {
+  width: 50px;
+  height: auto;
+  border-radius: 50%; /* Round logo image */
+}
+
+/* Responsive Styling */
+@media (min-width: 768px) {
+  nav {
+      flex-direction: row; /* Horizontal navigation on larger screens */
+  }
+
+  nav a {
+      margin-right: 20px; /* Space between navigation links */
+  }
+
+  main {
+      grid-template-columns: 2fr 1fr; /* Two column layout on larger screens */
+  }
+
+  .card:first-of-type {
+      grid-column: span 2; /* First card spans both columns */
+  }
+
+  /* Keep hamburger menu visible on larger screens */
+  #hamburger {
+      display: inline-block; /* Show the hamburger menu */
+      margin-right: 20px; /* Add some spacing */
+  }
+
+  /* Center the title */
+  h1 {
+      text-align: center;
+  }
+}
