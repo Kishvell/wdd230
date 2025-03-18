@@ -97,10 +97,6 @@ main {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
 }
 
-.hero {
-  /* Hero section styling */
-}
-
 .hero img {
   width: 90%;
   height: auto;
@@ -123,7 +119,9 @@ main {
 }
 
 .events {
-  /* Events section styling */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .events h2 {
@@ -147,7 +145,9 @@ main {
 }
 
 .weather {
-  /* Weather section styling */
+  padding: 20px;
+  border-radius: 5px; /* Rounded corners for cards */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
 }
 
 .weather h2 {
@@ -163,7 +163,9 @@ main {
 }
 
 .company-spotlights {
-  /* Company spotlights section styling */
+  padding: 20px;
+  border-radius: 5px; /* Rounded corners for cards */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
 }
 
 .company-spotlights h2 {
@@ -174,8 +176,9 @@ main {
   /* Company spotlight item styling */
 }
 
-.spotlight img {
-  /* Company spotlight image styling */
+.spotlight img {  
+  width: 40%;
+  height: auto;
 }
 
 .spotlight h3 {
