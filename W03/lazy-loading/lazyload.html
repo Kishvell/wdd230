@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Loading Images</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Lazy Loading Images</h1>
+    </header>
+    <main>
+        <img src="./images/1corinthians16_1.jpg" alt="Image 1" loading="lazy" width="400" height="600" onload="this.style.opacity=1;" style="opacity:0;">
+        <img src="./images/alma41_10.jpg" alt="Image 1" loading="lazy" width="400" height="600" onload="this.style.opacity=1;" style="opacity:0;">
+        <img src="./images/2nephi1_23.jpg" alt="Image 1" loading="lazy" width="400" height="600" onload="this.style.opacity=1;" style="opacity:0;">
+        <img src="./images/Exodus15_26.jpg" alt="Image 1" loading="lazy" width="400" height="600" onload="this.style.opacity=1;" style="opacity:0;">
+        <img src="./images/Mormon5_23.jpg" alt="Image 1" loading="lazy" width="400" height="600" onload="this.style.opacity=1;" style="opacity:0;">
+        <img src="./images/Psalm27_1.jpg" alt="Image 1" loading="lazy" width="400" height="600" onload="this.style.opacity=1;" style="opacity:0;">
+    </main>
+    <footer>
+        <p>Last Modified: <span id="lastModified"></span></p>
+        <script src="./script/scipt.js"></script>
+    </footer>
+</body>
+</html>
