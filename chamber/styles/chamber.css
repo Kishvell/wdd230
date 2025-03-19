@@ -103,46 +103,10 @@ main {
   height: auto;
 }
 
-.call-to-action {
-  /* Call to action section styling */
-}
-
-.call-to-action h2 {
-  /* Call to action heading styling */
-}
-
-.call-to-action p {
-  /* Call to action paragraph styling */
-}
-
-.call-to-action .btn {
-  /* Call to action button styling */
-}
-
 .events {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.events h2 {
-  /* Events heading styling */
-}
-
-.event-list {
-  /* Events list styling */
-}
-
-.event-list li {
-  /* Event list item styling */
-}
-
-.event-list li h3 {
-  /* Event list item heading styling */
-}
-
-.event-list li p {
-  /* Event list item paragraph styling */
 }
 
 .weather {
@@ -151,43 +115,15 @@ main {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
 }
 
-.weather h2 {
-  /* Weather heading styling */
-}
-
-.weather-card {
-  /* Weather card styling */
-}
-
-.weather-card p {
-  /* Weather card paragraph styling */
-}
-
 .company-spotlights {
   padding: 20px;
   border-radius: 5px; /* Rounded corners for cards */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
 }
 
-.company-spotlights h2 {
-  /* Company spotlights heading styling */
-}
-
-.spotlight {
-  /* Company spotlight item styling */
-}
-
 .spotlight img {  
   width: 40%;
   height: auto;
-}
-
-.spotlight h3 {
-  /* Company spotlight heading styling */
-}
-
-.spotlight p {
-  /* Company spotlight paragraph styling */
 }
 
 /* Footer Styling */
@@ -223,10 +159,9 @@ header img {
       grid-column: span 2; /* First card spans both columns */
   }
 
-  /* Keep hamburger menu visible on larger screens */
-  #hamburger {
-      display: inline-block; /* Show the hamburger menu */
-      margin-right: 20px; /* Add some spacing */
+    /* Hide hamburger menu on larger screens */
+    #hamburger {
+      display: none;
   }
 
   /* Center the title */
