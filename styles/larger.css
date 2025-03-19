@@ -1,7 +1,17 @@
 /* Responsive Styling (styles/larger.css) */
 @media (min-width: 768px) {
+  
+  header {
+    justify-content: space-between;
+  }
+
   nav {
     flex-direction: row; /* Horizontal on larger screens */
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
   }
 
   nav a {
@@ -27,5 +37,3 @@
       text-align: center; 
   }
 }
-
-  

@@ -6,3 +6,5 @@ copyrightYear.textContent = currentYear;
 
 lastModifiedDate.textContent = `Last Modified: ${document.lastModified}`;
 
+document.getElementById('copyrightYear').textContent = new Date().getFullYear();
+document.getElementById('lastModified').textContent = "Last Modified: " + document.lastModified;
