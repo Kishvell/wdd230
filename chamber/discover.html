@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chamber Discover Page</title>
+  <meta name="description" content="Discover the vibrant community of [Your Chamber Location]">
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/chamber.css">
+  <link rel="stylesheet" href="./styles/larger.css">
+</head>
+<body>
+  <header>
+    <img src="./images/logo.jpeg" alt="Powder Magazines Chamber of Commerce Logo">
+    <span>Santiago Benjamín Irigoyen</span>
+    <a href="#" id="dark-mode-toggle">🌙</a>
+  </header>
+  <nav>
+    <button id="hamburger">☰</button>
+    <ul id="main-menu" class="hidden">
+        <a href="/index.html">Home</a>
+        <a href="#">About</a>
+        <a href="#">Events</a>
+        <a href="#">Contact</a>
+    </ul>
+  </nav>
+  <main>
+    <section class="discover-page">
+      <aside>
+        <h2>Discover "Malvinas Argentinas"</h2>
+        <p>Welcome to "Malvinas Argentinas", a thriving community with Malvinas Argentinas is one of the 135 districts of the province of Buenos Aires, located in the northern part of Greater Buenos Aires, 35 km northwest of the Autonomous City of Buenos Aires. Its capital city is Los Polvorines, the second most populous city in the district, after Grand Bourg, the most populous..</p><br>
+        <div id="visit-message"></div>
+      </aside>
+      <section class="gallery">
+        <h2>Local Images</h2>
+        <div class="image-container">
+          <img src="./images/Municipalidad.jpg" alt="Image Description 1" loading="lazy">
+          <img src="./images/Los Polvorines_tren.jpg" alt="Image Description 2" loading="lazy">
+          <img src="./images/mapa_1.jpg" alt="Image Description 3" loading="lazy">
+          <img src="./images/mapa_2.png" alt="Image Description 4" loading="lazy">
+        </div>
+      </section>
+    </section>
+  </main>
+  <footer>
+    <p>© <span id="copyrightYear"></span> Santiago Benjamín Irigoyen WDD230</p>
+    <p id="lastModified"></p>
+  </footer>
+  <script src="./scripts/discover.js"></script>
+  <script src="./scripts/chamber.js"></script>
+</body>
+</html>
