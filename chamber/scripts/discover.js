@@ -25,4 +25,25 @@ if (!lastVisitDate) {
   localStorage.setItem('lastVisitDate', Date.now());
 }
 
-// Add more JavaScript functionality as needed
+// Get the last visit date from localStorage
+const lastVisitDate = localStorage.getItem('lastVisitDate');
+
+// Calculate the difference in days
+const currentDate = new Date();
+let daysBetweenVisits = 0;
+if (lastVisitDate) {
+  const lastVisit = new Date(lastVisitDate);
+  daysBetweenVisits = Math.round((currentDate - lastVisit) / (1000 * 60 * 60 * 24));
+}
+
+// Display the message based on the days between visits
+if (daysBetweenVisits === 0) {
+  document.getElementById('visitMessage').textContent = 'Welcome back!';
+} else if (daysBetweenVisits < 7) {
+  document.getElementById('visitMessage').textContent = `You haven't visited in ${daysBetweenVisits} days!`;
+} else {
+  document.getElementById('visitMessage').textContent = 'It's been a while since you last visited!';
+}
+
+// Update the last visit date in localStorage
+localStorage.setItem('lastVisitDate', currentDate.toString());
