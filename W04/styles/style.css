@@ -1,0 +1,24 @@
+/* styles.css */
+table {
+    width: 50%;
+    border-collapse: collapse;
+  }
+  th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra striping */
+  }
+  caption {
+    font-weight: bold;
+    padding: 8px;
+  }
+  
