@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>W04 Team Activity - Form</title>
+    <meta description="A form to tell me how well made is the page">
+    <meta author="Kishvell - Santiago Benjamín Irigoyen">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -29,29 +31,29 @@
             <h2>Form</h2>
             <form action="record.html" method="get">
                 <div>
-                    <label for="username">Username:</label>
+                    <label for="username" title="Enter your Username">Username:</label>
                     <input type="text" id="username" name="username" required>
                 </div>
                 <div>
-                    <label for="password">Password:</label>
+                    <label for="password" title="Enter your Password">Password:</label>
                     <input type="password" id="password" name="password" required pattern="[a-zA-Z0-9]{8,}">
                 </div>
                 <div>
-                    <label for="confirm-password">Confirm Password:</label>
+                    <label for="confirm-password" title="Confirm your Password">Confirm Password:</label>
                     <input type="password" id="confirm-password" name="confirm-password" required>
                     <span id="password-error" style="color: red; display: none;">Passwords do not match!</span>
                 </div>
                 <div>
-                    <label for="email">Email:</label>
+                    <label for="email" title="Enter your Email">Email:</label>
                     <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$">
                     <span id="email-error" style="color: red; display: none;">Please enter a valid BYUI email address.</span>
                 </div>
                 <div>
-                    <label for="rating">Page Rating (1-10):</label>
+                    <label for="rating" title="Give me your opinion">Page Rating (1-10):</label>
                     <input type="range" id="rating" name="rating" min="1" max="10" step="1" value="5">
                     <span id="rating-value">5</span>
                 </div> <br>
-                <button type="submit">Submit</button>
+                <button type="submit">Send your Feedback</button>
             </form>
         </section>
     </main>

@@ -52,9 +52,6 @@
 }
 
 /* Dark Mode Styling */
-.dark-mode .form-container h2, .form-container label, .form-container input {
-    color: black;
-  }
-  .dark-mode .form-container label, .form-container input {
+.dark-mode .form-container h2, .form-container label, .form-container input, .form-container span {
     color: black;
   }
