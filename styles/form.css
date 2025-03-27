@@ -1,0 +1,60 @@
+/* Basic Styling */
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-container input, .form-container button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* :root variables */
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #f0f0f0;
+    --font-size-large: 1.2rem;
+}
+
+/* Responsive Styling (optional) */
+@media (max-width: 400px) {
+    .form-container {
+        width: 90%;
+    }
+}
+
+/* Dark Mode Styling */
+.dark-mode .form-container h2, .form-container label, .form-container input {
+    color: black;
+  }
+  .dark-mode .form-container label, .form-container input {
+    color: black;
+  }

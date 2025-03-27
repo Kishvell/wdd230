@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W04 Team Activity - Form</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header>
+        <img src="images/your-profile-image.jpg" alt="My Profile Picture" style="width: 30px; height: auto;">
+        <span>Santiago Benjamín Irigoyen</span>
+        <button id="dark-mode-toggle" aria-label="Toggle Dark Mode">🌙</button> 
+    </header>
+    <nav>
+        <button id="hamburger" aria-label="Toggle menu">☰</button> 
+        <ul id="main-menu" class="hidden">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="chamber/index.html">Chamber</a></li>
+          <li><a href="chamber-site-plan.html">Site Plan</a></li>
+          <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="form-container">
+            <h2>Form</h2>
+            <form action="record.html" method="get">
+                <div>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required pattern="[a-zA-Z0-9]{8,}">
+                </div>
+                <div>
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                    <span id="password-error" style="color: red; display: none;">Passwords do not match!</span>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$">
+                    <span id="email-error" style="color: red; display: none;">Please enter a valid BYUI email address.</span>
+                </div>
+                <div>
+                    <label for="rating">Page Rating (1-10):</label>
+                    <input type="range" id="rating" name="rating" min="1" max="10" step="1" value="5">
+                    <span id="rating-value">5</span>
+                </div> <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© <span id="copyrightYear"></span> Santiago Benjamín Irigoyen, Argentina - WDD230</p>
+        <p id="lastModified"></p>
+        <p id="visitCounter"></p>
+    </footer>
+    <script src="scripts/form.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/getDates.js"></script>
+</body>
+</html>
