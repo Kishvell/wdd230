@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santiago Benjamín Irigoyen - Chamber Join Page</title>
+  <meta name="description" content="Chamber Join Page for prospective members.">
+  <link rel="stylesheet" href="styles/normalize.css"> 
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="stylesheet" href="styles/join.css">
+</head>
+<body>
+  <header>
+    <img src="images/your-profile-image.jpg" alt="My Profile Picture" style="width: 30px; height: auto;">
+    <span>Join the chamber of Commerce</span>
+    <button id="dark-mode-toggle" aria-label="Toggle Dark Mode">🌙</button> 
+  </header>
+  <nav>
+    <button id="hamburger" aria-label="Toggle menu">☰</button> 
+    <ul id="main-menu" class="hidden">
+      <li><a href="#">Home</a></li>
+      <li><a href="chamber/index.html">Chamber</a></li>
+      <li><a href="chamber-site-plan.html">Site Plan</a></li>
+      <li><a href="form.html">Form</a></li>
+    </ul>
+  </nav>
+  <main>
+    <form action="thankyou.html" method="GET">
+      <label for="first-name">First Name:</label>
+      <input type="text" id="first-name" name="first-name" required>
+
+      <label for="last-name">Last Name:</label>
+      <input type="text" id="last-name" name="last-name" required>
+
+      <label for="title">Title/Position:</label>
+      <input type="text" id="title" name="title" pattern="[A-Za-z\s\-]{7,}" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required placeholder="example@example.com">
+
+      <label for="phone">Mobile Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="business-name">Business/Organization Name:</label>
+      <input type="text" id="business-name" name="business-name" required>
+
+      <label for="membership-level">Membership Level:</label>
+      <select id="membership-level" name="membership-level" required>
+        <option value="np">NP Membership (No Fee)</option>
+        <option value="bronze">Bronze Membership</option>
+        <option value="silver">Silver Membership</option>
+        <option value="gold">Gold Membership</option>
+      </select>
+
+      <label for="description">Business/Organization Description:</label>
+      <textarea id="description" name="description"></textarea>
+
+      <input type="hidden" id="timestamp" name="timestamp" value="<?php echo date('Y-m-d H:i:s'); ?>">
+
+      <input type="submit" value="Submit Application">
+    </form>
+
+    <section class="membership-benefits">
+      <h2>Membership Benefits</h2>
+      <p>Explore the benefits of each membership level:</p>
+      <ul>
+        <li>NP Membership: No fee, basic access.</li>
+        <li>Bronze Membership: Access to events and training.</li>
+        <li>Silver Membership: Advertising opportunities and discounts.</li>
+        <li>Gold Membership: Premium benefits including spotlight positions on the homepage.</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>© <span id="copyrightYear"></span> Santiago Benjamín Irigoyen, Argentina - WDD230</p>
+  </footer>
+  <script src="scripts/getDates.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
