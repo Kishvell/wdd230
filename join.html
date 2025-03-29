@@ -47,6 +47,7 @@
 
       <label for="membership-level">Membership Level:</label>
       <select id="membership-level" name="membership-level" required>
+        <option value=""></option>  <!-- Add this empty option -->
         <option value="np">NP Membership (No Fee)</option>
         <option value="bronze">Bronze Membership</option>
         <option value="silver">Silver Membership</option>
@@ -58,7 +59,7 @@
 
       <input type="hidden" id="timestamp" name="timestamp" value="<?php echo date('Y-m-d H:i:s'); ?>">
 
-      <a href="/thankyou.html"><input type="submit" value="Submit Application"></a>
+      <a href="/thankyou.html"></a> <input type="submit" value="Submit Application">  <!-- Corrected line -->
     </form>
 
     <section class="membership-benefits">
