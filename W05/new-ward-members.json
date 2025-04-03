@@ -1,0 +1,28 @@
+{
+    "familyName": "Smith",
+    "dateMovedIn": "2023-01-15",
+    "numberOfPeople": 4,
+    "visitedByBishopric": true,
+    "members": [
+        {
+            "name": "John Smith",
+            "gender": "male",
+            "birthdate": "2010-05-20"
+        },
+        {
+            "name": "Jane Smith",
+            "gender": "female",
+            "birthdate": "2012-08-15"
+        },
+        {
+            "name": "Jake Smith",
+            "gender": "male",
+            "birthdate": "2015-03-10"
+        },
+        {
+            "name": "Jill Smith",
+            "gender": "female",
+            "birthdate": "2018-11-30"
+        }
+    ]
+}
