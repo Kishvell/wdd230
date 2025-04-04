@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber Directory</title>
+    <link rel="stylesheet" href="./styles/baseDirectory.css">
+    <link rel="stylesheet" href="./styles/directory.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="./images/logo.jpeg" alt="Powder Magazines Chamber of Commerce Logo">
+        <span>Chambers Directory</span>
+        <a href="#" id="dark-mode-toggle">🌙</a>
+    </header>
+    <nav>
+        <button id="hamburger">☰</button>
+        <ul id="main-menu" class="hidden">
+            <a href="/index.html">Home</a>
+            <a href="#">Directory</a>
+        </ul>
+    </nav>
+    <br>
+    <main>
+        <div class="menu">
+            <button id="grid">⏹️Grid</button>
+            <button id="list">📄List</button>
+        </div>
+        <hr>
+        <article class="grid">
+            <!-- Member sections will be added here dynamically -->
+        </article>
+    </main>
+    <br>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Chamber of Commerce</p>
+        </div>
+    </footer>
+    <script src="./scripts/directory.js"></script>
+    <script src="./scripts/chamber.js"></script>
+</body>
+</html>
