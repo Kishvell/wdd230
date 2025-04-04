@@ -139,3 +139,7 @@ img {
 .dark-mode button {
   color: white;
 }
+
+.dark-mode .grid h2, .dark-mode .list h2 {
+  color: white;
+}
