@@ -1,5 +1,5 @@
-const apiKey = 'YOUR_API_KEY'; // Replace with your OpenWeatherMap API key
-const city = 'YOUR_CITY'; // Replace with your desired city
+const apiKey = '1470a12586028dd65d5e29e15d8a1cd4'; // Replace with your OpenWeatherMap API key
+const city = 'Buenos Aires, Ar'; // Replace with your desired city
 const weatherURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 async function getWeather() {
