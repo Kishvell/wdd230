@@ -1,0 +1,133 @@
+{
+    "weeks": [
+      {
+        "weekNumber": "1",
+        "heading": "Week 1: Setup, Review, and Media Queries",
+        "links": [
+          {
+            "title": "Applied JavaScript",
+            "url": "WO1/AppliedJavaScript/index.html"
+          },
+          {
+            "title": "HolyGrail",
+            "url": "WO1/HolyGrail/holygrail.html"
+          },
+          {
+            "title": "MediaQueries",
+            "url": "WO1/MediaQueries/media-query.html"
+          }
+        ]
+      },
+      {
+        "weekNumber": "2",
+        "heading": "Week 2: Responsive Design",
+        "links": [
+          {
+            "title": "Design Principles",
+            "url": "W02/design.html"
+          },
+          {
+            "title": "Favicon",
+            "url": "favicon.ico"
+          },
+          {
+            "title": "Social media Meta",
+            "url": "images/screenshot.png"
+          },
+          {
+            "title": "Responsive Hamburger Menu",
+            "url": "https://codepen.io/Santiago-Irigoyen/pen/QwWOyOB"
+          },
+          {
+            "title": "DOM Manipulation",
+            "url": "W02/bom.html"
+          },
+          {
+            "title": "CSS Specificity",
+            "url": "https://www.byui.edu/devotionals"
+          },
+          {
+            "title": "CSS Normalize & Reset",
+            "url": "images/screenshot1.png"
+          }
+        ]
+      },
+      {
+        "weekNumber": "3",
+        "heading": "Week 3: Responsive images",
+        "links": [
+          {
+            "title": "WebP - Image File Format",
+            "url": "W03/images/pexels-pixabay-158316.webp"
+          },
+          {
+            "title": "Native Lazy Loading",
+            "url": "W03/lazy-loading/lazyload.html"
+          },
+          {
+            "title": "Responsive Images",
+            "url": "W03/responsive_images/Srcset.html"
+          },
+          {
+            "title": "Local Storage",
+            "url": "/W03/web_storage_API/LocalStorage.html"
+          }
+        ]
+      },
+      {
+        "weekNumber": "4",
+        "heading": "Week 4",
+        "links": [
+          {
+            "title": "CSS Pseudo-classes",
+            "url": "https://codepen.io/Santiago-Irigoyen/pen/LEYJEEb"
+          },
+          {
+            "title": "CSS Combinators",
+            "url": "W04/images/w3school.png"
+          },
+          {
+            "title": "HTML Tables for Data Presentation",
+            "url": "W04/tablebuild.html"
+          },
+          {
+            "title": "HTML Forms",
+            "url": "W04/Form-start/index.html"
+          }
+        ]
+      },
+      {
+        "weekNumber": "5",
+        "heading": "Week 5",
+        "links": [
+          {
+            "title": "Pseudo-elements",
+            "url": "https://codepen.io/Santiago-Irigoyen/pen/VYwgxJe"
+          },
+          {
+            "title": "Working with JSON data",
+            "url": "W05/images/json.png"
+          },
+          {
+            "title": "The Fetch API",
+            "url": "W05/prophets.html"
+          },
+          {
+            "title": "Consuming a third-party weather API",
+            "url": "W05/weather.html"
+          }
+        ]
+      },
+      {
+        "weekNumber": "6",
+        "heading": "Week 6",
+        "links": []
+      },
+      {
+        "weekNumber": "7",
+        "heading": "Week 7",
+        "links": []
+      }
+    ]
+  }
+  
